@@ -14,6 +14,14 @@ public class Main {
 	/**
 	 * @param args
 	 */
+	/**
+                  A B C D E 
+               A: 0 1 1 1 0 
+               B: 1 0 0 0 1 
+               C: 1 0 0 1 0 
+               D: 1 0 1 0 1 
+               E: 0 1 0 1 0 
+	 */
 	public static void main(String[] args) {
 		ArrayList<GraphNode> nodeList = new ArrayList<GraphNode>();
 		nodeList.add(new GraphNode("A", 0));
